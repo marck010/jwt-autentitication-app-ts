@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "name": "João Firmino",
+            "login": "joao.firmino",
+            "password": "pass@123"
+        },
+        {
+            "name": "Rogerio Souza",
+            "login": "rogerio.souza",
+            "password": "pass@123"
+        },
+        {
+            "name": "Geovane Santos",
+            "login": "geovane.santos",
+            "password": "pass@123"
+        }
+    ]
+}

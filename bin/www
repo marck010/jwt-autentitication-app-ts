@@ -1,0 +1,9 @@
+#!/usr/bin/env nodejs
+
+var app = require('../dist/app');
+
+app.listen(8000, function () {
+
+  console.log('App listening on port 8000!');
+
+});
