@@ -18,9 +18,7 @@ class App {
         this.middlewareBodyparser();
 
         this.middlewareLogger();
-
-        this.middlewareCors();
-
+        
         this.middlewareAuthorization();
 
         this.middlewareRoutes();
@@ -59,14 +57,6 @@ class App {
         });
     }
 
-    private middlewareCors() {
-        this.app.use(function (req: any, res: any, next: any) {
-            res.header("Access-Control-Allow-Origin", "*");
-            res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, ApiKeyPersona, SessionKey");
-            res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DEconstE");
-            next();
-        });
-    }
 }
 
 
